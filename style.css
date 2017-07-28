@@ -1380,4 +1380,100 @@ textarea {
       .column-block > :last-child {
         margin-bottom: 0; } }
 
+.home {
+  height: 100vh;
+  background: url(images/background_main.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.about {
+  border-top: solid;
+  border-width: 1px;
+  height: 100vh; }
+  .about h1 {
+    color: white;
+    margin-left: 250px;
+    border-left: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    font-weight: 100; }
+
+.dev {
+  border-top: solid;
+  border-width: 1px;
+  height: 100vh; }
+  .dev h1 {
+    color: white;
+    margin-left: 250px;
+    border-left: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    font-weight: 100; }
+
+.photo {
+  border-top: solid;
+  border-width: 1px;
+  height: 100vh; }
+  .photo h1 {
+    color: white;
+    margin-left: 250px;
+    border-left: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    font-weight: 100; }
+
+.contact {
+  border-top: solid;
+  border-width: 1px;
+  height: 100vh; }
+  .contact h1 {
+    color: white;
+    margin-left: 250px;
+    border-left: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    font-weight: 100; }
+
+body {
+  background-color: #2e2e2e;
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+  body header {
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent; }
+    body header .title {
+      display: inline-block;
+      flex-direction: row;
+      width: 40vw; }
+    body header .nav {
+      display: inline-block;
+      flex-direction: row;
+      text-align: right;
+      width: 60vw;
+      vertical-align: middle;
+      padding: 10px; }
+      body header .nav ul {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        vertical-align: middle;
+        line-height: 2.5; }
+        body header .nav ul li {
+          flex-direction: row;
+          list-style: none;
+          display: inline-block;
+          font-size: 1.2rem; }
+  body h1 {
+    display: inline-block;
+    margin: 0px;
+    color: #b5b5b5;
+    padding: 10px; }
+
 /*# sourceMappingURL=style.css.map */
